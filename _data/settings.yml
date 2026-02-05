@@ -3,7 +3,6 @@
 
 menu:
 - {name: 'Projects', url: ''}
-- {name: 'Business Area',     url: 'blog'}
 - {name: 'About',    url: 'about'}
 - {name: 'Contact',  url: 'contact'}
 
