@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 'Project Two'
+title: '청년기업가대회 스케치 영상'
 ---
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
+O니투데이에서 주관하는 스타트업 창업경진대회의 스케치 영상 기획, 촬영 및 편집 담당
+
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
