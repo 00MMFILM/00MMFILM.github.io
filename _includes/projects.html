@@ -2,7 +2,9 @@
   <div class="project-container">
     {% for project in site.data.settings.projects %}
       <a href="{{ site.github.url }}/projects/{{ project.url }}">
-        <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/타생지연.jpg)">
+        <div class="project-unit"
+             data-folder="{{ site.github.url }}/projects/{{ project.url }}"
+             style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/{% if project.url == 'proj-2' %}청년기업가대회.jpg{% else %}타생지연.jpg{% endif %})">
           <div class="project-overlay">
             <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
           </div>
