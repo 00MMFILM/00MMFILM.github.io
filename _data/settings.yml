@@ -27,31 +27,23 @@ social:
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
+
 #-------------------------------
 # SEO Section
 
-# NOTE: Providing SEO information will make this website more searchable on the internet.
-
 seo:
-  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
-  rel-author: 'https://plus.google.com/u/0/#'
-  rel-publisher: 'https://plus.google.com/u/0/#'
+  description: '00MM(오오엠엠)은 숏폼 드라마, 행사·인터뷰 영상, SNS 콘텐츠를 제작하는 영상 크리에이티브 스튜디오입니다.'
+  rel-author: ''
+  rel-publisher: ''
 
 #-------------------------------
 # Google Analytics Section
 
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-# If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-analytics-ua: 'UA-112060364-3'
 
 #-------------------------------
 # Disqus Section
 
-# Change to true for Disqus comments
 disqus:
   comments: false
   disqus_shortname: ''
