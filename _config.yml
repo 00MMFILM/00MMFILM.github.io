@@ -8,5 +8,5 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
 title:		   "00MM"
-description: "00MM Portfolio"
+description: "00MM"
 author:      "Cha Seo Won"
