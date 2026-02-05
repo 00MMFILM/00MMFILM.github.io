@@ -6,4 +6,4 @@ permalink: /contact
 
 # Contact
 
-Tel. 070 4571 4015  E-mail. lcy1152@naver.com
+Tel. 070 4571 4015 , E-mail. lcy1152@naver.com
