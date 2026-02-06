@@ -12,4 +12,4 @@ title: '<2025년 제2회 신격호 롯데 청년기업가대상> 스케치 영�
 <br>
 
 
-{% include image.html url="https://www.youtube.com/@lottefoundation_official" image="projects/proj-3/청년기업가대상.jpg" %}
+{% include image.html url="https://youtu.be/HCiDqA_UM2U" image="projects/proj-3/청년기업가대상.jpg" %}
