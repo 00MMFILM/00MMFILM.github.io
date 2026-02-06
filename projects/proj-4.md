@@ -1,4 +1,4 @@
-<img width="470" height="122" alt="image" src="https://github.com/user-attachments/assets/5a6e8cf0-a343-470b-96b0-50d4e1aa72cc" />---
+---
 layout: post
 title: '국민중심소통 활성화 전문가 세미나 숏폼 영상'
 ---
@@ -7,3 +7,4 @@ title: '국민중심소통 활성화 전문가 세미나 숏폼 영상'
 
 
 {% include image.html url="https://youtube.com/shorts/NG2yRHTjJVc?si=-buD918pCMbTYFAA" image="projects/proj-4/서울신문.jpg" %}
+
