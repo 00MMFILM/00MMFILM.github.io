@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Project Five'
+title: '서울 안전·힐링 관광지 _ 메타세쿼이아 숲길'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta tortor eros, et cursus diam feugiat eu. Mauris euismod volutpat leo porttitor congue. Curabitur quis purus dignissim, sagittis enim non, interdum enim. Sed vitae nibh sed ante luctus finibus. In fermentum arcu eget volutpat blandit. Nullam leo magna, luctus ac consequat ut, ultrices quis quam. Nullam orci magna, tincidunt consequat arcu vel, facilisis hendrerit lectus. Mauris dapibus, lorem et tincidunt bibendum, massa ipsum consectetur elit, at venenatis nulla nulla id ante.
+서울관광재단에서 주관, 서울 안전·힐링 관광지를 소개하는 영상 제작
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-5/gun-pants.jpg" %}
+{% include image.html url="https://youtu.be/mGOY7PYXXm8?si=FU92c4xzXBQkLd2j" image="projects/proj-5/서울관광재단.jpg" %}
