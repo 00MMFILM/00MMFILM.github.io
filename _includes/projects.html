@@ -4,7 +4,7 @@
       <a href="{{ site.github.url }}/projects/{{ project.url }}">
         <div class="project-unit"
              data-folder="{{ site.github.url }}/projects/{{ project.url }}"
-             style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/{% if project.url == 'proj-2' %}청년기업가대회.jpg{% elsif project.url == 'proj-3' %}청년기업가대상.jpg{% elsif project.url == 'proj-4' %}서울신문.jpg{% elsif project.url == 'proj-5' %}서울관광재단.jpg{% else %}타생지연.jpg{% endif %})">
+             style="background-image: url('{{ site.github.url }}/assets/img/projects/{{ project.url }}/{% if project.url == 'proj-2' %}청년기업가대회.jpg{% elsif project.url == 'proj-3' %}청년기업가대상.jpg{% elsif project.url == 'proj-4' %}서울신문.jpg{% elsif project.url == 'proj-5' %}서울관광재단.jpg{% else %}타생지연.jpg{% endif %}')">
           <div class="project-overlay">
             <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
           </div>
