@@ -278,26 +278,27 @@ ul { list-style: none; }
    INNER PAGES
    ============================================================ */
 
-/* --- actor hero --- */
+/* --- actor hero (타이포 온리) --- */
 .actor-hero {
   position: relative;
-  min-height: 100svh;
+  min-height: 92svh;
   display: grid;
-  grid-template-columns: 1fr min(38vw, 480px) 1fr;
-  align-items: center;
-  padding: clamp(6rem, 12vh, 8rem) clamp(1.2rem, 4vw, 3rem) 0;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  row-gap: clamp(1.8rem, 5vh, 3.4rem);
+  padding: clamp(7rem, 14vh, 9rem) clamp(1.2rem, 4vw, 3rem) clamp(2.6rem, 7vh, 4rem);
+  background: radial-gradient(55% 50% at 50% 42%, rgba(217,164,65,0.07), transparent 70%);
 }
 .actor-hero .big-name {
-  position: absolute; inset: 0;
-  display: flex; flex-direction: column; justify-content: center;
-  z-index: 1; pointer-events: none;
-  padding: 0 clamp(0.6rem, 2vw, 2rem);
+  grid-column: 1 / -1;
+  display: flex; flex-direction: column;
+  pointer-events: none;
 }
 .actor-hero .big-name .row1,
 .actor-hero .big-name .row2 {
   font-family: var(--disp);
-  font-size: clamp(4.4rem, 16.5vw, 15rem);
-  line-height: 0.86;
+  font-size: clamp(4.4rem, 17.5vw, 16.5rem);
+  line-height: 0.88;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -306,28 +307,12 @@ ul { list-style: none; }
   text-align: right;
   color: transparent; -webkit-text-stroke: 1.5px rgba(242,237,228,0.4);
 }
-.actor-hero .hero-photo-wrap {
-  grid-column: 2;
-  position: relative; z-index: 2;
-  aspect-ratio: 4 / 5;
-  overflow: hidden;
-}
-.actor-hero .hero-photo-reveal {
-  width: 100%; height: 112%;
-  clip-path: inset(100% 0 0% 0);
-}
-.actor-hero .hero-photo-reveal img {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  will-change: transform;
-}
 .actor-hero .hero-meta-l, .actor-hero .hero-meta-r {
-  position: relative; z-index: 3;
-  display: flex; flex-direction: column; gap: 0.5rem;
+  display: flex; flex-direction: column; gap: 0.55rem;
 }
-.actor-hero .hero-meta-l { grid-column: 1; padding-right: 1.4rem; align-self: end; padding-bottom: 10vh; }
-.actor-hero .hero-meta-r { grid-column: 3; padding-left: 1.4rem; align-self: start; padding-top: 12vh; text-align: right; align-items: flex-end; }
-.actor-hero .hero-meta-l p, .actor-hero .hero-meta-r p { font-size: 0.88rem; color: var(--muted); max-width: 24ch; }
+.actor-hero .hero-meta-l { grid-column: 1; justify-self: start; }
+.actor-hero .hero-meta-r { grid-column: 2; justify-self: end; text-align: right; align-items: flex-end; }
+.actor-hero .hero-meta-l p, .actor-hero .hero-meta-r p { font-size: 0.88rem; color: var(--muted); max-width: 30ch; }
 .actor-hero .hero-meta-r .award-tag {
   font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em;
   color: var(--text); border: 1px solid var(--line); padding: 0.5rem 0.8rem;
@@ -567,13 +552,9 @@ ul { list-style: none; }
 
 /* ---- mobile ---- */
 @media (max-width: 900px) {
-  .actor-hero { grid-template-columns: 1fr; padding-top: 7rem; row-gap: 1.6rem; }
-  .actor-hero .big-name { position: relative; inset: auto; order: 1; padding: 0; }
-  .actor-hero .big-name .row1, .actor-hero .big-name .row2 { font-size: clamp(3.4rem, 15vw, 6rem); }
-  .actor-hero .hero-photo-wrap { grid-column: 1; order: 2; max-width: 420px; width: 82%; margin: 0 auto; }
-  .actor-hero .hero-meta-l, .actor-hero .hero-meta-r { grid-column: 1; padding: 0; align-self: auto; text-align: left; align-items: flex-start; }
-  .actor-hero .hero-meta-l { order: 3; }
-  .actor-hero .hero-meta-r { order: 4; padding-bottom: 3rem; }
+  .actor-hero { grid-template-columns: 1fr; padding-top: 7rem; row-gap: 1.8rem; min-height: 78svh; }
+  .actor-hero .big-name .row1, .actor-hero .big-name .row2 { font-size: clamp(3.4rem, 15.5vw, 6.5rem); }
+  .actor-hero .hero-meta-l, .actor-hero .hero-meta-r { grid-column: 1; justify-self: start; text-align: left; align-items: flex-start; }
   .about-grid { grid-template-columns: 1fr; }
   .about-grid .side-photo { max-width: 440px; }
   .panel { min-height: 68svh; }
